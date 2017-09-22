@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+    <channel>
+        <title>colah's blog</title>
+        <link>http://colah.github.io/</link>
+        <description><![CDATA[]]></description>
+        <atom:link href="http://colah.github.io/rss.xml" rel="self"
+                   type="application/rss+xml" />
+        <lastBuildDate>Thurs, 3 Sep 2015 00:00:00 UTC</lastBuildDate>
+
+
+<item>
+    <title>Visual Information Theory</title>
+    <link>http://colah.github.io/posts/2015-09-Visual-Information/</link>
+    <description><![CDATA[
+<p>I love the feeling of having a new way to think about the world. I especially love when there’s some vague idea that gets formalized into a concrete concept. Information theory is a prime example of this.</p>
+
+<p>Information theory gives us precise language for describing a lot of things. How uncertain am I? How much does knowing the answer to question A tell me about the answer to question B? How similar is one set of beliefs to another? I’ve had informal versions of these ideas since I was a young child, but information theory crystallizes them into precise, powerful ideas. These ideas have an enormous variety of applications, from the compression of data, to quantum physics, to machine learning, and vast fields in between.</p>
+
+<p>Unfortunately, information theory can seem kind of intimidating. I don’t think there’s any reason it should be. In fact, many core ideas can be explained completely visually!</p>
+
+<p><a href="http://colah.github.io/posts/2015-09-Visual-Information/">Read more.</a></p>
+]]></description>
+    <pubDate>Thurs, 3 Sep 2015 00:00:00 UTC</pubDate>
+    <guid>http://colah.github.io/posts/2015-09-Visual-Information/</guid>
+</item>
+
+<item>
+    <title>Neural Networks, Types, and Functional Programming</title>
+    <link>http://colah.github.io/posts/2015-09-NN-Types-FP/</link>
+    <description><![CDATA[
+<p>Deep learning, despite its remarkable successes, is a young field – perhaps ten years old. While models called artificial neural networks have been studied for decades, much of that work seems only tenuously connected to modern results.</p>
+
+<p>It’s often the case that young fields start in a very ad-hoc manner. Later, the mature field is understood very differently than it was understood by its early practitioners. It seems quite likely that deep learning is in this ad-hoc state...</p>
+
+<p><a href="http://colah.github.io/posts/2015-09-NN-Types-FP/">Read more.</a></p>
+]]></description>
+    <pubDate>Thurs, 3 Sep 2015 00:00:00 UTC</pubDate>
+    <guid>http://colah.github.io/posts/2015-09-NN-Types-FP/</guid>
+</item>
+
+<item>
+    <title>Calculus on Computational Graphs: Backpropagation</title>
+    <link>http://colah.github.io/posts/2015-08-Backprop/index.html</link>
+    <description><![CDATA[
+<p>Backpropagation is the key algorithm that makes training deep models computationally tractable. For modern neural networks, it can make training with gradient descent as much as ten million times faster, relative to a naive implementation. That’s the difference between a model taking a week to train and taking 200,000 years.</p>
+<p>Beyond its use in deep learning, backpropagation is a powerful computational tool in many other areas, ranging from weather forecasting to analyzing numerical stability – it just goes by different names. In fact, the algorithm has been reinvented at least dozens of times in different fields (see <a href="http://www.math.uiuc.edu/documenta/vol-ismp/52_griewank-andreas-b.pdf">Griewank (2010)</a>). The general, application independent, name is “reverse-mode differentiation.”</p>
+<p>Fundamentally, it’s a technique for calculating derivatives quickly. And it’s an essential trick to have in your bag, not only in deep learning, but in a wide variety of numerical computing situations.</p>
+
+<p><a href="http://colah.github.io/posts/2015-08-Backprop/index.html">Read more.</a></p>
+]]></description>
+    <pubDate>Mon, 31 Aug 2015 00:00:00 UTC</pubDate>
+    <guid>http://colah.github.io/posts/2015-08-Backprop/index.html</guid>
+</item>
+
+<item>
+    <title>Understanding LSTM Networks</title>
+    <link>http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html</link>
+    <description><![CDATA[
+<p>Humans don’t start their thinking from scratch every second. As you read this essay, you understand each word based on your understanding of previous words. You don’t throw everything away and start thinking from scratch again. Your thoughts have persistence.</p>
+
+<p>Traditional neural networks can’t do this, and it seems like a major shortcoming. For example, imagine you want to classify what kind of event is happening at every point in a movie. It’s unclear how a traditional neural network could use its reasoning about previous events in the film to inform later ones.</p>
+
+<p>Recurrent neural networks address this issue. They are networks with loops in them, allowing information to persist... <a href="http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html">Read more.</a></p>
+]]></description>
+    <pubDate>Thurs, 27 Aug 2015 00:00:00 UTC</pubDate>
+    <guid>http://colah.github.io/posts/2015-08-Understanding-LSTMs/index.html</guid>
+</item>
+
+<item>
+    <title>Visualizing Representations: Deep Learning and Human Beings</title>
+    <link>http://colah.github.io/posts/2015-01-Visualizing-Representations/</link>
+    <description><![CDATA[
+<p>In a <a href="../2014-10-Visualizing-MNIST/">previous post</a>, we explored techniques for visualizing high-dimensional data. Trying to visualize high dimensional data is, by itself, very interesting, but my real goal is something else. I think these techniques form a set of basic building blocks to try and understand machine learning, and specifically to understand the internal operations of deep neural networks.</p>
+<p>Deep neural networks are an approach to machine learning that has revolutionized computer vision and speech recognition in the last few years, blowing the previous state of the art results out of the water. They’ve also brought promising results to many other areas, including language understanding and machine translation. Despite this, it remains challenging to understand what, exactly, these networks are doing.</p>
+<p>I think that dimensionality reduction, thoughtfully applied, can give us a lot of traction on understanding neural networks.</p>
+<p>Understanding neural networks is just scratching the surface, however, because understanding the network is fundamentally tied to understanding the data it operates on. The combination of neural networks and dimensionality reduction turns out to be a very interesting tool for visualizing high-dimensional data – a much more powerful tool than dimensionality reduction on its own.</p>
+<p>As we dig into this, we’ll observe what I believe to be an important connection between neural networks, visualization, and user interface.</p>
+<p><a href="http://colah.github.io/posts/2015-01-Visualizing-Representations/">Read more.</a></p>
+]]></description>
+    <pubDate>Fri, 16 Jan 2015 00:00:00 UTC</pubDate>
+    <guid>http://colah.github.io/posts/2015-01-Visualizing-Representations/</guid>
+</item>
+ 
+    </channel> 
+</rss>

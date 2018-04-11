@@ -1,0 +1,17 @@
+body {
+  display: flex;
+  flex-direction: column;
+  padding: 128px;
+  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+  background: linear-gradient(180deg, papayawhip, wheat);
+  text-align: center;
+}
+
+div {
+  display: flex;
+  flex-direction: column;
+  align-self: center;
+  width: 66%;
+  padding: 64px;
+  background: papayawhip;
+}

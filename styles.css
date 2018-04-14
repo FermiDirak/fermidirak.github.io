@@ -2,16 +2,24 @@ body {
   display: flex;
   flex-direction: column;
   padding: 128px;
-  font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-  background: linear-gradient(180deg, papayawhip, wheat);
+  font-family: 'Roboto', sans-serif;
+  background: rgb(23, 51, 86);
   text-align: center;
+  color: #485564
+}
+
+.title {
+  font-family: 'Reem Kufi', sans-serif;
+  font-size: 3.00em;
+  font-weight: 600;
+  margin: 0;
 }
 
 div {
   display: flex;
   flex-direction: column;
   align-self: center;
-  width: 66%;
+  width: 100%;
   padding: 64px;
-  background: papayawhip;
+  background: rgb(237, 237, 237)
 }

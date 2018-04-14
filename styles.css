@@ -60,7 +60,7 @@ button > a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  padding: 32px;
+  padding: 48px 0;
 }
 
 .home-content {
@@ -104,12 +104,16 @@ button > a {
   padding: 8px 0;
 }
 
+
 .content-button > a {
   border: 6px solid #aaaaaa;
   font-size: 16pt;
   padding: 8px 32px;
 }
 
+.content-button:hover {
+  box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
 
 /* FOOTER */
 

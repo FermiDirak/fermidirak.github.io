@@ -1,3 +1,4 @@
+let contentDiv = document.getElementById('content');
 
 let homepage = `
   <section class="home">
@@ -31,3 +32,5 @@ let homepage = `
     <img class="portrait-image" src="./me.jpg">
   </section>
 `;
+
+contentDiv.innerHTML = homepage;

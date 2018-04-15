@@ -104,7 +104,6 @@ button > a {
   padding: 8px 0;
 }
 
-
 .content-button > a {
   border: 6px solid #aaaaaa;
   font-size: 16pt;
@@ -113,6 +112,63 @@ button > a {
 
 .content-button:hover {
   box-shadow: 0 6px 20px rgba(0,0,0,0.3);
+}
+
+
+/* Portfolio Page */
+
+.portfolio {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio > h1 {
+  text-align: center;
+  font-size: 28pt;
+}
+
+.app-container {
+  display: flex;
+  flex-direction: row;
+  width: 75%;
+  background: lightslategray;
+}
+
+.app-image {
+  width: 180px;
+  height: 180px;
+  background: blue;
+}
+
+.app-container-content {
+  display: flex;
+  flex-direction: column;
+  padding: 16px 48px;
+  font-weight: bold;
+}
+
+.app-title {
+  margin: 0;
+  padding: 0;
+}
+
+.tag-list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  margin: auto 0 0 0;
+  padding: 0;
+  bottom: 0;
+}
+
+.tag {
+  list-style: none;
+  margin: 0 5px;
+  padding: 3px 8px;
+  border-radius: 3px;
+  background: #575757;
+  color: lightgray;
 }
 
 /* FOOTER */

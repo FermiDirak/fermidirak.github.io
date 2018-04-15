@@ -1,6 +1,7 @@
 let contentDiv = document.getElementById('content');
 
-let url = window.location.hash;
+let url = window.location.pathname;
+
 // window.location.hash = 'swag';
 
 let routes = {

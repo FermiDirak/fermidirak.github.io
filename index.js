@@ -3,6 +3,7 @@ let contentDiv = document.getElementById('content');
 // window.location.hash = 'swag';
 
 let routes = {
+  '/index.html', homepage,
   '/': homepage,
   '/portfolio': portfolio,
 };

@@ -1,7 +1,5 @@
 let contentDiv = document.getElementById('content');
 
-let pathname = window.location.pathname;
-
 // window.location.hash = 'swag';
 
 let routes = {
@@ -10,9 +8,9 @@ let routes = {
 };
 
 let onNavItemClick = (itemName) => {
-  pathname = itemName;
+  window.location.pathname = itemName;
   contentDiv.innerHTML = routes[itemName];
 }
 
-contentDiv.innerHTML = routes[pathname];
+contentDiv.innerHTML = routes[window.location.pathname];
 

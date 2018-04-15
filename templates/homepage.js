@@ -22,7 +22,7 @@ let homepage = `
 
       <div class='button-holder'>
         <button class="content-button"><a href="./resume.pdf">Resumé</a></button>
-        <button class="content-button"><a href="./contact.html">Contact</a></button>
+        <button class="content-button"><a  href="#" onclick="onNavItemClick('contact'); return false;">Contact</a></button>
       </div>
 
     </div>

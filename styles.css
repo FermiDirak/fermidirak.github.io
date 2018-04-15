@@ -132,6 +132,7 @@ button > a {
   display: flex;
   flex-direction: row;
   width: 75%;
+  margin: 12px;
   background: lightslategray;
 }
 
@@ -144,7 +145,7 @@ button > a {
 .app-container-content {
   display: flex;
   flex-direction: column;
-  padding: 16px 48px;
+  padding: 24px 56px;
   font-weight: bold;
 }
 
@@ -174,7 +175,7 @@ button > a {
 /* FOOTER */
 
 .footer {
-  position: absolute;
+  position: static;
   box-sizing: border-box;
   text-align: center;
   width: 100%;

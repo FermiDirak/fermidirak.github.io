@@ -1,0 +1,7 @@
+[
+  {
+    "title": "FoodSpots",
+    "desc": "An app for users to share their favorite food spots in the city",
+    "tags": ["react", "redux", "express", "serverless", "mysql"]
+  }
+]

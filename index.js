@@ -24,6 +24,8 @@ let routes = {
   '': homepage,
   'index.html': homepage,
   'portfolio': portfolio,
+  'work': work,
+  'contact': contact,
 };
 
 

@@ -198,6 +198,30 @@ button > a {
   object-fit: contain;
 }
 
+
+/* CONTACT */
+
+.contact {
+  font-size: 32pt;
+  padding: 56px;
+  text-align: center;
+}
+
+
+/* WORK */
+
+.work {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.work > h1 {
+  text-align: center;
+  font-size: 28pt;
+}
+
+
 /* FOOTER */
 
 .footer {

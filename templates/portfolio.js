@@ -100,7 +100,7 @@ let portfolio = `
 
   <h3>But seriously, come check out what I've built!</h3>
   <a class="commit-log" href="https://github.com/fermidirak">
-    <img src="http://ghchart.rshah.org/993333/fermidirak" alt="2016rshah's Github chart">
+    <img src="http://ghchart.rshah.org/dd9911/fermidirak" alt="2016rshah's Github chart">
   </a>
   <br/>
 

@@ -9,6 +9,8 @@ let routes = {
 };
 
 let onNavItemClick = (itemName) => {
+  console.log(itemName);
+
   window.location.pathname = itemName;
   contentDiv.innerHTML = routes[itemName];
 }

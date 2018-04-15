@@ -133,25 +133,39 @@ button > a {
   flex-direction: row;
   width: 75%;
   margin: 12px;
-  background: lightslategray;
 }
 
 .app-image {
-  width: 180px;
-  height: 180px;
-  background: blue;
+  width: 220px;
 }
 
 .app-container-content {
   display: flex;
   flex-direction: column;
-  padding: 24px 56px;
+  padding: 14px 32px;
   font-weight: bold;
 }
 
 .app-title {
   margin: 0;
   padding: 0;
+}
+
+.app-title > a {
+  text-decoration: none;
+  color: inherit;
+}
+
+.app-desc {
+  text-indent: 32px;
+  line-height: 18pt;
+  margin: 4px;
+  padding: 0;
+}
+
+.redirect-link {
+  color: inherit;
+  margin: 0 16px;
 }
 
 .tag-list {
@@ -170,6 +184,18 @@ button > a {
   border-radius: 3px;
   background: #575757;
   color: lightgray;
+}
+
+.commit-log {
+  display: flex;
+  justify-content: center;
+  padding: 16px;
+  width: 80%;
+}
+
+.commit-log > img {
+  width: 100%;
+  object-fit: contain;
 }
 
 /* FOOTER */

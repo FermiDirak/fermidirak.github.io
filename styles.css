@@ -2,6 +2,7 @@ body {
   display: flex;
   flex-direction: column;
   font-family: 'Roboto', sans-serif;
+  font-size: 14pt;
   margin: 0;
   padding: 0;
 }
@@ -82,10 +83,10 @@ button > a {
 }
 
 .home-content > p {
-  font-size: 14pt;
+  font-size: 16pt;
   text-indent: 16px;
   text-align: left;
-  line-height: 22pt;
+  line-height: 26pt;
 }
 
 .portrait-image {

@@ -48,7 +48,7 @@ let projects = [
     title: 'LearnServerless',
     desc: 'A detailed walk through I created to demonstrate the power of serverless compared to serverful architectures.',
     link: 'https://github.com/FermiDirak/LearnServerlessNode',
-    tags: ['react', 'express', 'spa', 'serverless', 'aws', 'aws lambda', 'medium'],
+    tags: ['react', 'express', 'spa', 'serverless', 'aws', 'lambda', 'medium'],
   },
   // PERSONAL WEBSITE
   {

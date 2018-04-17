@@ -30,7 +30,7 @@ let projects = [
     imageUrl: './img/chompy.png',
     title: 'Chompy',
     desc: 'A restaurant review aggregator app with a microservice architecture. Optimized and load tested the application with 10 million fake entries and successfully deployed dockerized to EC2 with a loadbalancer.',
-    link: 'https://github.com/FermiDirak/LearnServerlessNode',
+    link: 'https://github.com/codenamesgroup/Maps-and-Image-Carousel-Service',
     tags: ['react', 'express', 'aws', 'docker', 'artillery.io', 'redis', 'mysql', 'webscale', 'microservice'],
   },
 
@@ -74,7 +74,7 @@ let projects = [
 let portfolioPiece = (project) => {
   return `
     <article class="app-container">
-      <a href="${project.link}"><img class="app-image" src="${project.imageUrl}"/></a>
+      <a href=""><img class="app-image" src="${project.imageUrl}"/></a>
 
       <div class="app-container-content">
         <h2 class="app-title"><a href="${project.link}">${project.title}</a></h2>

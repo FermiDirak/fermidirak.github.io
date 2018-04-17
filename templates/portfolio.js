@@ -74,7 +74,7 @@ let projects = [
 let portfolioPiece = (project) => {
   return `
     <article class="app-container">
-      <a href=""><img class="app-image" src="${project.imageUrl}"/></a>
+      <img class="app-image" src="${project.imageUrl}"/>
 
       <div class="app-container-content">
         <h2 class="app-title"><a href="${project.link}">${project.title}</a></h2>

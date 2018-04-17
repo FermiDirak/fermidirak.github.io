@@ -21,7 +21,7 @@ let homepage = `
       </p>
 
       <div class='button-holder'>
-        <button class="content-button"><a href="./resume.pdf">Resumé</a></button>
+        <button class="content-button"><a href="./resume.pdf">Résumé</a></button>
         <button class="content-button"><a  href="#" onclick="onNavItemClick('/contact'); return false;">Contact</a></button>
       </div>
 

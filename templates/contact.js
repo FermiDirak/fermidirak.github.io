@@ -1,21 +1,26 @@
 let contact = `
   <section class="contact">
-    I took my power in my hand<br/>
-    And went against the world;<br/>
-    ’Twas not so much as David had,<br/>
-    But I was twice as bold.<br/>
+    There are risks and costs to action.<br/>
+    But they are far less than the long <br/>
+    range risks of comfortable inaction.<br/>
 
-    I aimed my pebble, but myself<br/>
-    Was all the one that fell.<br/>
-    Was it Goliath was too large,<br/>
-    Or only I too small?<br/><br/>
+    <br/>
 
-    -Emily Dickinson
+    -John F. Kennedy
 
     <br/>
     <br/>
 
-    <button class="content-button"><a href="./resume.pdf">Résumé</a></button>
+    Let's get in touch
+
+    <br/>
+    <br/>
+
+    <div class="button-holder">
+      <button class="content-button"><a href="./resume.pdf">Résumé</a></button>
+      <button class="content-button"><a href="mailto:ManueleBryan@gmail.com">Email</a></button>
+      <button class="content-button"><a href="https://www.linkedin.com/in/bryanmanuele">Linkedin</a></button>
+    </div>
 
   </section>
 

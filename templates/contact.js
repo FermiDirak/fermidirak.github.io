@@ -1,4 +1,4 @@
-let contact = `
+let contactPage = `
   <section class="contact">
     There are risks and costs to action.<br/>
     But they are far less than the long <br/>
@@ -24,4 +24,6 @@ let contact = `
 
   </section>
 
-`
+`;
+
+

@@ -4,7 +4,8 @@ let experiences = [
     title: 'Aerendir: Machine Learning and Embedded Systems Development',
     desc: `
       <ul>
-        <li>Developed a C implementation of Support Vector Machines Classifier for embedded systems</li>
+        <li>Participated in the development of an embedded machine learning framework</li>
+        <li>Implemented in ansi C99 <a href="https://www.microsoft.com/en-us/research/wp-content/uploads/2016/02/tr-98-14.pdf">John Platt's SMO Support Vector Machines Classifier</a> for embedded systems</li>
         <li>Played a role in architecturing the data pipeline for our machine learning algorithms</li>
         <li>Developed and documented proprietary Digital Signal Processing (DSP) algorithms</li>
       </ul>

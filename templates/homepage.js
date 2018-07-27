@@ -9,7 +9,7 @@ let homepage = `
       <p>
         I'm a full stack engineer who likes to build things and build things well.
         I have three apps with over 5000 downloads published to the google play store,
-        have lead the development of a core embedded machine learning library at a
+        have lead the development of a core embedded machine learning library module at a
         start-up, and have extensive knowledge over the front-end ecosystem.
       </p>
 

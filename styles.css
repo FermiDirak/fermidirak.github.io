@@ -14,7 +14,7 @@ body {
   flex-direction: column;
 
   width: 100vw;
-  height: 100vh;
+  min-height: 100vh;
 
   margin: 0;
   padding: 0;
@@ -56,7 +56,7 @@ a {
   flex-direction: row;
   align-items: center;
 
-  width: 100vw;
+  width: 100%;
   height: 56px;
 
   padding: 0 20px;
@@ -79,6 +79,10 @@ a {
   font-size: 18pt;
 }
 
+.navbar-item > a {
+  margin-right: auto;
+}
+
 .navbar-item > a:hover {
   text-decoration: underline;
 }
@@ -93,15 +97,13 @@ a {
 /* HOME */
 
 .home {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  padding: 48px 0;
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-rows: 1fr;
+  max-height: 100%;
 }
 
 .home-content {
-  width: 45%;
-  padding: 16px 32px 32px 0;
 }
 
 .home-content > h1 {

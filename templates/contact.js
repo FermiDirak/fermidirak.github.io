@@ -1,12 +1,12 @@
 let contact = `
   <section class="contact">
-    There are risks and costs to action.<br/>
-    But they are far less than the long <br/>
-    range risks of comfortable inaction.<br/>
+    There are risks and costs to action.
+    But they are far less than the long
+    range risks of comfortable inaction.
 
     <br/>
 
-    -John F. Kennedy
+    <i>-John F. Kennedy</i>
 
     <br/>
     <br/>

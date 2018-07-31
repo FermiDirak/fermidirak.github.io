@@ -88,12 +88,15 @@ a {
 }
 
 
+
 /* CONTENT */
 
 .content {
   flex: 1;
   justify-content: center;
 }
+
+
 
 /* HOME */
 
@@ -260,14 +263,6 @@ a {
 }
 
 
-/* CONTACT */
-
-.contact {
-  font-size: 32pt;
-  padding: 56px;
-  text-align: center;
-}
-
 
 /* WORK */
 
@@ -281,6 +276,19 @@ a {
   text-align: center;
   font-size: 28pt;
 }
+
+
+
+/* CONTACT */
+
+.contact {
+  text-align: center;
+  font-size: 24pt;
+  font-weight: 200;
+  max-width: 700px;
+  margin: 0 auto;
+}
+
 
 
 /* FOOTER */

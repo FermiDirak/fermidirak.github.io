@@ -92,18 +92,29 @@ a {
 
 .content {
   flex: 1;
+  justify-content: center;
 }
 
 /* HOME */
 
 .home {
   display: grid;
-  grid-template-columns: 1fr auto;
+  grid-template-columns: 1fr 1fr;
   grid-template-rows: 1fr;
-  max-height: 100%;
+}
+
+@media all and (max-width: 900px) {
+  .home > :nth-child(2) {
+    display: none;
+  }
+
+  .home {
+    grid-template-columns: 1fr 0;
+  }
 }
 
 .home-content {
+  padding: 0 42px;
 }
 
 .home-content > h1 {
@@ -128,6 +139,7 @@ a {
 
 .portrait-image {
   height: 600px;
+  margin: auto;
 }
 
 .button-holder {

@@ -21,7 +21,11 @@ class Curve extends Component {
 
   render() {
     return (
-      <svg className='wave' viewBox={viewbox} preserveAspectRatio='none'>
+      <svg
+        className={styles['container']}
+        viewBox={viewbox}
+        preserveAspectRatio='none'
+      >
         <path d={shape} fill='#282c34'/>
       </svg>
     );

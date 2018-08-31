@@ -11,9 +11,7 @@ class App extends Component {
       <div className="App">
 
         <header>
-          <svg className='wave' viewBox={viewbox} preserveAspectRatio='none'>
-            <path d={curve} fill='#282c34'/>
-          </svg>
+          <Curve />
         </header>
 
         <div className='content'>

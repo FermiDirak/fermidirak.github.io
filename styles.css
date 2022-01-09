@@ -110,6 +110,11 @@ a {
 }
 
 @media all and (max-width: 1000px) {
+  .bio {
+    height: auto;
+    margin-bottom: 120px;
+  }
+
   .bio > :nth-child(2) {
     display: none;
   }
@@ -185,6 +190,68 @@ a {
 .content-button:active {
   border: 2px solid var(--darkergrey);
   background: rgba(1.0, 1.0, 1.0, 0.05);
+}
+
+.posts-section {
+  display: flex;
+  flex-direction: column;
+  min-width: 940px;
+  max-width: 100%;
+  width: 940px;
+  align-self: center;
+  margin-top: 40px;
+  margin-bottom: 80px;
+}
+
+
+@media all and (max-width: 1000px) {
+  .posts-section {
+    min-width: auto;
+    width: 90%;
+    padding: 0 40px;
+  }
+}
+
+.posts-section-header {
+  font-weight: 400;
+  font-size: 24pt;
+  margin: 0;
+}
+
+.posts-list {
+  padding: 0;
+}
+
+.blog-item {
+  display: flex;
+  flex-direction: column;
+}
+
+.blog-title {
+  margin: 20px 0 8px 0;
+  font-size: 20pt;
+  font-weight: 400;
+
+  text-decoration: underline;
+  text-decoration-color: blue;
+}
+
+@media all and (max-width: 600px) {
+  .blog-title {
+    font-size: 16pt;
+  }
+}
+
+
+.publish-date {
+  margin-bottom: 20px;
+}
+
+.blog-item-hr {
+  width: 100%;
+  background: var(--lightgrey);
+  height: 2px;
+  border: none;
 }
 
 /* Portfolio Page */
@@ -305,11 +372,17 @@ a {
   display: flex;
   flex-direction: row;
   justify-content: center;
-  width: 100vw;
+  width: 100%;
   font-size: 10pt;
   margin: 4px 0;
 }
 
 .footer > a {
   padding: 0 4px;
+}
+
+@media all and (max-width: 600px) {
+  .footer {
+    display: none;
+  }
 }

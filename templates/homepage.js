@@ -1,4 +1,34 @@
-let homepage = `
+
+// most recent at the top
+const blogPosts = [
+  {
+    title: 'React Hooks — Best practices & a shift in mindset',
+    url: 'https://medium.com/@bryanmanuele/react-hooks-best-practices-a-shift-in-mindset-8fd0e58e4b0b',
+    date: 'Mar 22, 2019',
+  },
+  {
+    title: 'Learning by Doing: The designing and building of Foodsie.io',
+    url: 'https://medium.com/hackernoon/learning-by-doing-the-designing-and-building-of-foodsie-io-9c05103c3370',
+    date: 'Jul 30, 2018',
+  },
+  {
+    title: 'Sessionless Authentication using JWTs (with Node + Express + Passport JS)',
+    url: 'https://medium.com/@bryanmanuele/sessionless-authentication-withe-jwts-with-node-express-passport-js-69b059e4b22c',
+    date: 'Jul 16, 2018',
+  },
+  {
+    title: 'Stepping up your Javascript Development Experience to Professional Levels with the latest and greatest of the ECMA Standard',
+    url: 'https://medium.com/@bryanmanuele/stepping-up-your-javascript-development-experience-to-professional-levels-with-the-latest-and-363bbec332f4',
+    date: 'May 23, 2018',
+  },
+  {
+    title: 'How I Implemented my own SPA Routing System in Vanilla JS',
+    url: 'https://medium.com/@bryanmanuele/how-i-implemented-my-own-spa-routing-system-in-vanilla-js-49942e3c4573',
+    date: 'Apr 25, 2018',
+  },
+];
+
+const homepage = `
   <section class="bio">
     <div class="bio-content">
       <h1>Bryan Manuele</h1>
@@ -20,7 +50,7 @@ let homepage = `
         on Soundcloud.
       </p>
 
-      <div class='button-holder'>
+      <div class="button-holder">
         <a class="content-button" href="./resume.pdf">Résumé</a>
         <a class="content-button" href="#" onclick="onNavItemClick('/contact'); return false;">Contact</a>
       </div>
@@ -28,5 +58,18 @@ let homepage = `
     </div>
 
     <img class="portrait-image" src="./me.jpg">
+  </section>
+
+  <section class="posts-section">
+    <h2 class="posts-section-header">Blog posts</h2>
+    <ul class="posts-list">
+      ${blogPosts.map((post, i) => `
+        <li class="blog-item">
+          <a class="blog-title" href="${post.url}">${post.title}</a>
+          <div class="publish-date">Published ${post.date}</div>
+          ${i !== blogPosts.length - 1 ? '<hr class="blog-item-hr" />' : ''}
+        </li>
+      `).join('\n')}
+    </ul>
   </section>
 `;

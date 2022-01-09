@@ -100,45 +100,59 @@ a {
 
 /* HOME */
 
-.home {
-  display: grid;
-  grid-template-columns: auto auto;
-  grid-template-rows: 1fr;
+.bio {
+  display: flex;
+  flex-direction: row;
   margin: 0 auto;
+
+  height: 85vh;
+  align-items: center;
 }
 
 @media all and (max-width: 1000px) {
-  .home > :nth-child(2) {
+  .bio > :nth-child(2) {
     display: none;
-  }
-
-  .home {
-    grid-template-columns: 1fr 0;
   }
 }
 
-.home-content {
+.bio-content {
   max-width: 500px;
+  max-height: 600px;
   padding-right: 42px;
 }
 
-.home-content > h1 {
+@media all and (max-width: 1000px) {
+  .bio-content {
+    max-height: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    text-align: center;
+  }
+}
+
+.bio-content > h1 {
   text-indent: 32pt;
   font-size: 28pt;
   padding: 0;
   margin: 4px;
 }
 
-.home-content > h3 {
+.bio-content > h3 {
   text-align: center;
   padding: 0;
   margin: 0;
 }
 
-.home-content > p {
+.bio-content > p {
   font-size: 14pt;
   text-align: left;
   line-height: 26pt;
+}
+
+@media all and (max-width: 1000px) {
+  .bio-content > p {
+    text-align: center;
+  }
 }
 
 .portrait-image {
@@ -153,30 +167,25 @@ a {
 }
 
 .content-button {
-  display: flex;
-  flex-direction: column;
-
-  border: 2px solid var(--darkgrey);
+  box-sizing: border-box;
+  height: 100%;
+  padding: 8px 16px;
   margin: 0 16px;
-
   font-size: 14pt;
+  background: white;
+  border: 2px solid var(--darkgrey);
+  transition: all 150ms ease-in-out;
 }
 
 .content-button:hover {
-  box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 1px 0px,
+  box-shadow: rgba(0, 0, 0, 0.10) 0px 0px 1px 1px,
               rgba(0, 0, 0, 0.24) 0px 2px 2px 0px;
 }
 
-.content-button > a {
-  box-sizing: border-box;
-  flex: 1;
-  width: 100%;
-  height: 100%;
-
-  padding: 8px 16px;
+.content-button:active {
+  border: 2px solid var(--darkergrey);
+  background: rgba(1.0, 1.0, 1.0, 0.05);
 }
-
-
 
 /* Portfolio Page */
 

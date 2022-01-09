@@ -1,6 +1,6 @@
 let homepage = `
-  <section class="home">
-    <div class="home-content">
+  <section class="bio">
+    <div class="bio-content">
       <h1>Bryan Manuele</h1>
       <h3>Profesional Full Stack Developer | Product Architect</h3>
 
@@ -21,8 +21,8 @@ let homepage = `
       </p>
 
       <div class='button-holder'>
-        <button class="content-button"><a href="./resume.pdf">Résumé</a></button>
-        <button class="content-button"><a href="#" onclick="onNavItemClick('/contact'); return false;">Contact</a></button>
+        <a class="content-button" href="./resume.pdf">Résumé</a>
+        <a class="content-button" href="#" onclick="onNavItemClick('/contact'); return false;">Contact</a>
       </div>
 
     </div>
